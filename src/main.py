@@ -36,4 +36,5 @@ if __name__ == '__main__':
     if week >= 5:
         logging.error('weekend')
     else:
+        logging.error('OK')
         main(dt.date())
